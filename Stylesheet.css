@@ -3,7 +3,7 @@ body{
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
-    background: linear-gradient(315deg, rgb(238, 116, 222) 3%, rgb(120, 179, 238) 38%, rgb(240, 156, 229) 68%, rgb(136, 197, 255) 98%);
+    background: linear-gradient(315deg, rgb(255, 254, 255) 3%, rgb(176, 216, 255) 38%, rgb(169, 241, 243) 68%, rgb(111, 179, 243) 98%);
     animation: gradient 25s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
@@ -76,7 +76,7 @@ body{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     margin-left: 60px;
-    background-image: linear-gradient(-20deg, #cfd6d5 0%, #afe7df 100%);
+    background-image: linear-gradient(-20deg, #f2f3f3 0%, #b1f8ed 100%);
    /* background-color: rgb(247, 238, 245);*/
     height: 510px;
     width: 770px;
@@ -91,7 +91,7 @@ body{
     animation-timing-function: ease-in-out;
     height: 510px;
     width: 450px;
-    background-image: linear-gradient(-20deg, #ccd4d3 0%, #afe7df 100%);
+    background-image: linear-gradient(-20deg, #f2f3f3 0%, #b1f8ed 100%);
     /*background-color: rgb(247, 238, 245);*/
     border-radius: 20px;
     overflow: hidden;
