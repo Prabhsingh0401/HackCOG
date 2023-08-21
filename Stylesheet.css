@@ -76,10 +76,12 @@ body{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     margin-left: 60px;
-    background-color: rgb(247, 238, 245);
+    background-image: linear-gradient(-20deg, #cfd6d5 0%, #afe7df 100%);
+   /* background-color: rgb(247, 238, 245);*/
     height: 510px;
     width: 770px;
     border-radius: 20px;
+    box-shadow: 50px;
 }
 
 .start{
@@ -89,7 +91,8 @@ body{
     animation-timing-function: ease-in-out;
     height: 510px;
     width: 450px;
-    background-color: rgb(247, 238, 245);
+    background-image: linear-gradient(-20deg, #ccd4d3 0%, #afe7df 100%);
+    /*background-color: rgb(247, 238, 245);*/
     border-radius: 20px;
     overflow: hidden;
 }
@@ -97,7 +100,6 @@ body{
 .container {
     overflow: hidden; 
     padding-top: 20px;
-
   }
   
   .floating, .start {
@@ -155,9 +157,9 @@ body{
 }
 
 .signup{
-    background-color: blueviolet;
+    background-color: rgb(57, 69, 238);
     border: none;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 15px 25px;
     text-align: center;
     text-decoration: none;
