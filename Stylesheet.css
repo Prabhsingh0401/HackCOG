@@ -78,9 +78,62 @@ body{
     margin-left: 60px;
     background-color: rgb(247, 238, 245);
     height: 510px;
-    width: 800px;
+    width: 770px;
     border-radius: 20px;
 }
+
+.start{
+    animation-name: floating;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    height: 510px;
+    width: 450px;
+    background-color: rgb(247, 238, 245);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.container {
+    overflow: hidden; 
+    padding-top: 20px;
+
+  }
+  
+  .floating, .start {
+    float: left; 
+    box-sizing:border-box;
+    margin-right: 30px;
+}
+
+.Startsub{
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.startsub1{
+    text-align: justify;
+    font-family: serif;
+    padding-left: 30px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+  
+@keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+  
  
 @keyframes floating {
     0% { transform: translate(0,  0px); }
@@ -88,20 +141,56 @@ body{
     100%   { transform: translate(0, -1px); }   
 }
 
+@keyframes start {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 5px); }
+    100%   { transform: translate(0, -1px); }   
+}
 .welcome{
     padding-left: 50px;
-    padding-top: 40px;
-    font-family: sans-serif;
+    padding-top: 20px;
+    font-family: serif;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 45px;
+}
+
+.signup{
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 30px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.signup:hover{
+    opacity: 0.8;
 }
 
 .subtext{
     padding-left: 50px;
     padding-top: 0px;
-    font-family: sans-serif;
+    font-family: serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
+}
+
+.sub{
+    padding-left: 50px;
+    padding-top: 0px;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 22px;
+    width: 56ch;
+    animation: typing 5s steps(50), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
 }
 
 ul {
