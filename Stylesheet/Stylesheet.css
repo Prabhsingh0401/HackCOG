@@ -72,7 +72,7 @@ body{
 
 .floating { 
     animation-name: floating;
-    animation-duration: 6s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     margin-left: 60px;
@@ -87,7 +87,7 @@ body{
 .start{
     padding-top: 30px;
     animation-name: floating;
-    animation-duration: 6s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     overflow: hidden;
@@ -271,6 +271,32 @@ ul {
     height: 500px;
     width: 325px;
     margin-top:25px;
-    opacity: 0.6;
     border-radius: 15px;
+}
+
+.Profile-content{
+    font-family: serif;
+    font-size: large;
+}
+
+.social{
+    padding-left: 40px;
+}
+
+.iconprofile{
+    height: 120px;
+    width: 120px;
+    padding-left: 105px;
+    padding-top: 20px;
+}
+
+.Activity{
+    height: 170px;
+    width: 180px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.socials:hover{
+    transform: scale(1.1);
 }
