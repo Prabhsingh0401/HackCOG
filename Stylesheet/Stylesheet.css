@@ -178,6 +178,7 @@ body{
     font-weight: bold;
     font-size: 22px;
     text-align: justify;
+    color: #393a3a;
 }
 
 .sub{
@@ -191,11 +192,13 @@ body{
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
+    color: #393a3a;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
+    margin-right: 60px;
     padding-right:0;
     padding-top: 15px;
     overflow: hidden;
@@ -224,7 +227,8 @@ ul {
   .Profileicon{
     height: 75px;
     width: 75px;
-    margin-left: 10px;
+    margin-left: 5px;
+    opacity: 0.8;
   }
 
   .Profileicon:hover{
@@ -263,7 +267,6 @@ ul {
     margin-left: 55px;
     margin-top: 25px;
     border-radius: 15px;
-    opacity: 0.6;
 }
 
 .profile{
@@ -277,6 +280,7 @@ ul {
 .Profile-content{
     font-family: serif;
     font-size: large;
+    color: #393a3a;
 }
 
 .social{
@@ -290,6 +294,10 @@ ul {
     padding-top: 20px;
 }
 
+.iconprofile:hover{
+    transform: scale(1.01);
+}
+
 .Activity{
     height: 170px;
     width: 180px;
@@ -298,5 +306,37 @@ ul {
 }
 
 .socials:hover{
-    transform: scale(1.1);
+    transform: skew(-5deg, -10deg);
+}
+
+.firmimage{
+    padding-left: 20px;
+    padding-top: 20px;
+    opacity: 0.7;
+}
+
+.firmname{
+    font-size: 30px;
+    font-family: serif;
+    color: #393a3a;
+    padding-top: 20px;
+}
+
+.firm {
+    overflow: hidden;
+  }
+  
+  .firmimage, .firmname {
+    float: left; 
+    box-sizing:border-box;
+    margin-right: 80px;
+}
+
+.firmabout{
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 40px;
+    color: #393a3a;
+    font-style: italic;
+    font-family: serif;
 }
