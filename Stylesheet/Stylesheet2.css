@@ -7,7 +7,6 @@ body{
     animation: gradient 25s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
-    overflow: hidden;
 }
 
 @keyframes gradient {
@@ -228,7 +227,7 @@ ul {
   .Profileicon{
     height: 75px;
     width: 75px;
-    margin-left: 180px;
+    margin-left: 160px;
     opacity: 0.8;
   }
 
@@ -379,4 +378,74 @@ ul {
 .marketcap:hover{
     transform: scale(1.02);
     opacity: 1;
+}
+
+.morefirms{
+    background-image: linear-gradient(-20deg, #4ECDC4 0%, #FFE1A8 100%);
+    height: 400px;
+    width: 275px;
+    margin-top: 60px;
+    margin-left: 60px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.mfirmimage{
+    height: 130px;
+    width: 230px;
+    padding-top: 15px;
+    padding-left: 20px;
+    opacity: 0.8;
+}
+
+.goonj{
+    padding-left: 20px;
+    font-size: 23px;
+    font-family:serif;
+    color: #393a3a;
+}
+
+.goonjabout{
+    padding-left: 20px;
+    text-align: justify;
+    padding-right: 30px;
+}
+
+.morefirms1{
+    background-image: linear-gradient(-20deg, #4ECDC4 0%, #FFE1A8 100%);
+    height: 400px;
+    width: 275px;
+    margin-top: 60px;
+    margin-left: 45px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.container2{
+    overflow: hidden;
+}
+
+.morefirms, .morefirms1, .morefirms2, .morefirms3{
+    float: left; 
+    box-sizing:border-box;
+} 
+
+.morefirms2{
+    background-image: linear-gradient(-20deg, #4ECDC4 0%, #FFE1A8 100%);
+    height: 400px;
+    width: 275px;
+    margin-top: 60px;
+    margin-left: 45px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.morefirms3{
+    background-image: linear-gradient(-20deg, #4ECDC4 0%, #FFE1A8 100%);
+    height: 400px;
+    width: 275px;
+    margin-top: 60px;
+    margin-left: 45px;
+    border-radius: 15px;
+    margin-bottom: 30px;
 }
