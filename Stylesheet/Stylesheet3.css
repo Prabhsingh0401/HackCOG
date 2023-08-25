@@ -166,8 +166,95 @@ body{
     transition: 0.3s;
 }
 
+.campaign{
+    background-image: linear-gradient(-20deg, #4ECDC4 0%, #FFE1A8 100%);
+    height: 500px;
+    width: 350px;
+    margin-top: 40px;
+    margin-left: 100px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.cancer{
+    border-radius: 15px;
+    height:204px
+}
+
+.cancer1{
+    padding-left: 10px;
+    font-family: serif;
+    font-weight: 600;
+}
+
+.bar{
+    background-color: aqua;
+    height: 10px;
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 25px;
+}
+
+.facebook-share{
+    background-color: rgb(62, 216, 243);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 17px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 16px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.twitter-share{
+    background-color: rgb(62, 216, 243);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 17px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.paytm{
+    background-color: rgb(62, 216, 243);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 17px 135px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 16px;
+    border-radius: 15px;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
 .signup:hover{
     opacity: 0.8;
+}
+
+.facebook-share:hover{
+    transform: scale(1.02);
+}
+
+.twitter-share:hover{
+    transform: scale(1.02);
+}
+
+.paytm:hover{
+    transform: scale(1.02);
 }
 
 .subtext{
@@ -216,7 +303,7 @@ ul {
     display: block;
     color: rgb(56, 56, 56);
     text-align: center;
-    padding: 11px 45px;
+    padding: 11px 46px;
     text-decoration: none;
   }
 
@@ -244,207 +331,4 @@ ul {
     float: left; 
     box-sizing:border-box;
     margin-right: 180px;
-}
-
-  /* Styling for HUB Page*/
-
-  .container {
-    overflow: hidden; 
-    padding-top: 20px;
-  }
-  
-  .firm, .profile {
-    float: left; 
-    box-sizing:border-box;
-    margin-right: 30px;
-}
-
-.firm{
-    background-image: linear-gradient(-20deg, #4ECDC4 0%, #FFE1A8 100%);
-    height: 500px;
-    width:900px;
-    margin-left: 55px;
-    margin-top: 25px;
-    border-radius: 15px;
-}
-
-.profile{
-    background-image: linear-gradient(-20deg, #4ECDC4 0%, #FFE1A8 100%);
-    height: 500px;
-    width: 325px;
-    margin-top:25px;
-    border-radius: 15px;
-}
-
-.Profile-content{
-    font-family: serif;
-    font-size: large;
-    color: #393a3a;
-}
-
-.social{
-    padding-left: 20px;
-}
-
-.iconprofile{
-    height: 120px;
-    width: 120px;
-    padding-left: 105px;
-    padding-top: 20px;
-}
-
-.iconprofile:hover{
-    transform: scale(1.01);
-}
-
-.Activity{
-    height: 170px;
-    width: 180px;
-    padding-left: 70px;
-    padding-top: 20px;
-}
-
-.socials:hover{
-    transform: skew(-5deg, -10deg);
-}
-
-.firmimage{
-    padding-left: 20px;
-    padding-top: 20px;
-    opacity: 0.7;
-}
-
-.firmname{
-    font-size: 30px;
-    font-family: serif;
-    color: #393a3a;
-    padding-top: 20px;
-}
-
-.firm {
-    overflow: hidden;
-  }
-  
-  .firmimage, .firmname {
-    float: left; 
-    box-sizing:border-box;
-    margin-right: 80px;
-}
-
-.firmabout{
-    font-size: 18px;
-    text-align: justify;
-    padding-right: 40px;
-    color: #393a3a;
-    font-family:'Times New Roman', Times, serif
-}
-
-.Profit{
-    height: 200px;
-    width: 300px;
-    border-radius: 10px;
-    margin-left: 110px;
-    margin-top: 30px;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); 
-    opacity: 0.6;
-}
-
-.Profit:hover{
-    transform: scale(1.02);
-    opacity: 1;
-}
-
-.analytics{
-    overflow: hidden;
-}
-
-.Profit, .marketcap {
-    float: left; 
-    box-sizing:border-box;
-    margin-right: 70px;
-}
-
-.marketcap{
-    height: 200px;
-    width: 300px;
-    border-radius: 10px;
-    margin-left: 30px;
-    margin-top: 30px;
-    box-shadow: 3px 3px 6px rgba(87, 87, 87, 0.3); 
-    opacity: 0.6;
-}
-
-.marketcap:hover{
-    transform: scale(1.02);
-    opacity: 1;
-}
-
-.morefirms{
-    background-image: linear-gradient(-20deg, #4ECDC4 0%, #FFE1A8 100%);
-    height: 400px;
-    width: 275px;
-    margin-top: 60px;
-    margin-left: 60px;
-    border-radius: 15px;
-    margin-bottom: 30px;
-}
-
-.mfirmimage{
-    height: 130px;
-    width: 230px;
-    padding-top: 15px;
-    padding-left: 20px;
-    opacity: 0.8;
-}
-
-.goonj{
-    padding-left: 20px;
-    font-size: 23px;
-    font-family:serif;
-    color: #393a3a;
-}
-
-.goonjabout{
-    padding-left: 20px;
-    text-align: justify;
-    padding-right: 30px;
-}
-
-.morefirms1{
-    background-image: linear-gradient(-20deg, #4ECDC4 0%, #FFE1A8 100%);
-    height: 400px;
-    width: 275px;
-    margin-top: 60px;
-    margin-left: 45px;
-    border-radius: 15px;
-    margin-bottom: 30px;
-}
-
-.container2{
-    overflow: hidden;
-}
-
-.morefirms, .morefirms1, .morefirms2, .morefirms3{
-    float: left; 
-    box-sizing:border-box;
-} 
-
-.morefirms2{
-    background-image: linear-gradient(-20deg, #4ECDC4 0%, #FFE1A8 100%);
-    height: 400px;
-    width: 275px;
-    margin-top: 60px;
-    margin-left: 45px;
-    border-radius: 15px;
-    margin-bottom: 30px;
-}
-
-.morefirms3{
-    background-image: linear-gradient(-20deg, #4ECDC4 0%, #FFE1A8 100%);
-    height: 400px;
-    width: 275px;
-    margin-top: 60px;
-    margin-left: 45px;
-    border-radius: 15px;
-    margin-bottom: 30px;
 }

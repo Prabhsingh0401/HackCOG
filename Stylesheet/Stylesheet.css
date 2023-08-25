@@ -217,7 +217,7 @@ ul {
     display: block;
     color: rgb(56, 56, 56);
     text-align: center;
-    padding: 11px 50px;
+    padding: 11px 47px;
     text-decoration: none;
   }
 
@@ -228,7 +228,6 @@ ul {
   .Profileicon{
     height: 75px;
     width: 75px;
-    margin-left: 180px;
     opacity: 0.8;
   }
 
