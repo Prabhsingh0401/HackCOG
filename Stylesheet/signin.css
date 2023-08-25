@@ -102,8 +102,8 @@ body {
     height: 22px;
 }
 img.apple {
-    width: 20px;
-    height: 22px;
+    width: 32px;
+    height: 32px;
 }
 
 .text-field.lock{
@@ -132,6 +132,17 @@ img.apple {
     border: 1px solid var(--primary);
 }
 
+.email{
+    height: 30px;
+    width: 40px;
+    padding-left: -20px;
+}
+
+.lock{
+    height: 27px;
+    width: 27px;    
+}
+
 .divider {
     display: flex;
     flex-direction: row;
@@ -153,6 +164,7 @@ img.apple {
     grid-template-columns: 4fr 3fr;
     max-width: 1200px;
     margin: 0 auto;
+    margin-right: -100px;
 }
 
 
@@ -162,7 +174,6 @@ img.apple {
     justify-content: center;
     align-items: start;
 }
-
 
 .logo {
     height: 48px;
@@ -295,8 +306,6 @@ img.apple {
     position: absolute;
     right: -2px;
     bottom: -4px;
-    width: 30px;
-    height: 30px;
     transform: translate(-50%,-50%);
     transform-origin: center;
 }
