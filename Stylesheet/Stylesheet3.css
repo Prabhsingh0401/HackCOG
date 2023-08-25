@@ -171,7 +171,7 @@ body{
     height: 500px;
     width: 350px;
     margin-top: 40px;
-    margin-left: 100px;
+    margin-left: 80px;
     border-radius: 15px;
     margin-bottom: 30px;
 }
@@ -303,7 +303,7 @@ ul {
     display: block;
     color: rgb(56, 56, 56);
     text-align: center;
-    padding: 11px 46px;
+    padding: 11px 60px;
     text-decoration: none;
   }
 
